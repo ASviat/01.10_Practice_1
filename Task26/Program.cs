@@ -12,4 +12,4 @@ int NumQuant(int n1)
     return count;
 }
 int numQuant=NumQuant(num);
-Console.WriteLine($"{numQuant}");
+Console.WriteLine(numQuant);
