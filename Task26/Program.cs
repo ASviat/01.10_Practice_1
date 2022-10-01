@@ -11,5 +11,5 @@ int NumQuant(int n1)
     }
     return count;
 }
-int numQuant=NumQuant(num);
+int numQuant=NumQuant(Math.Abs(num)); // Math.Abs() - модуль
 Console.WriteLine(numQuant);
