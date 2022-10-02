@@ -3,7 +3,7 @@ int num=Convert.ToInt32(Console.ReadLine());
 
 int Sum(int n1)
 {
-int sum=0;
+int sum=default;
 int first=1;
 while (first<=n1)
     {
